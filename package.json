@@ -1,0 +1,38 @@
+{
+  "proxy": "http://192.168.1.104:19000",
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~46.0.2",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.4",
+    "react-native-web": "~0.18.7",
+    "@react-native-async-storage/async-storage": "^1.17.7",
+    "@react-navigation/core": "^6.2.2",
+    "@react-navigation/native": "^6.0.11",
+    "axios": "^0.27.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "expo-barcode-scanner": "~11.4.0",
+    "expo-camera": "~12.3.0",
+    "expo-image-picker": "~13.3.1",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "expo-updates": "~0.14.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
